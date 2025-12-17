@@ -2,4 +2,6 @@ gdown
 inference==0.9.17
 supervision>=0.20.0
 tqdm
-ultralytics<=8.3.40
+ultralytics<=8.3.226
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
