@@ -2,3 +2,5 @@ inference==0.9.17
 supervision==0.19.0
 tqdm
 ultralytics<=8.3.40
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+skypilot>=0.10.4 # not directly required, pinned by Snyk to avoid a vulnerability
